@@ -1,0 +1,45 @@
+@jwt=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2NzkzMzE0NTF9.Qzqr8aipfJ0g-9j9xlaZ34A8Rk3ZpFeGXqErcjMvlOA
+###Hikes Index
+get http://localhost:3000/hikes.json
+Content-Type: application/json
+
+###Hikes Show
+get http://localhost:3000/hikes/1.json
+Content-Type: application/json
+
+### Hikes Create
+post http://localhost:3000/hikes.json 
+Content-Type: application/json
+
+{
+  "name": "cliff walk",
+  "address": "valley road",
+  "distance": 6,
+  "difficulty": "difficult",
+  "pets_allowed": false
+}
+
+### Users Create
+post http://localhost:3000/users.json 
+Content-Type: application/json
+
+{
+  "name": "user1",
+  "email": "test@test.com",
+  "password": "mypassword",
+  "password_confirmation": "mypassword"
+  
+}
+
+### Sessions Create
+post http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "mypassword"  
+}
+
+
+
+
