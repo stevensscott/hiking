@@ -1,0 +1,2 @@
+class FavoriteHike < ApplicationRecord
+end

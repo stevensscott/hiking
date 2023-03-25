@@ -1,0 +1,2 @@
+class HikeCommentsController < ApplicationController
+end

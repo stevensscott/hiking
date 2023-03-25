@@ -1,0 +1,2 @@
+class HikeRating < ApplicationRecord
+end

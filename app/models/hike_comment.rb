@@ -1,0 +1,2 @@
+class HikeComment < ApplicationRecord
+end
